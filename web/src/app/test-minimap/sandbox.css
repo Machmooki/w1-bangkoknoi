@@ -1,0 +1,42 @@
+/* Scoped to /test-minimap only — the interactive "Choose Your Journey"
+ * canal map, staged here before it's promoted into /experiences. Reuses
+ * the .trip-explorer / .trip-card / .canal-marker styling from globals.css
+ * (shared with the real experiences page) so the two stay visually
+ * identical once this moves. */
+
+.canal-sandbox-page {
+  min-height: 100vh;
+  background: #0a1614;
+  padding: 64px 24px 96px;
+}
+
+.canal-sandbox-header {
+  max-width: 1180px;
+  margin: 0 auto 32px;
+}
+
+.canal-sandbox-eyebrow {
+  font: 500 11px/1 var(--font-montserrat), Montserrat, sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.canal-sandbox-title {
+  font-family: var(--font-playfair), "Playfair Display", serif;
+  font-size: clamp(28px, 4vw, 42px);
+  color: var(--off-white);
+  margin-bottom: 12px;
+}
+
+.canal-sandbox-hint {
+  max-width: 640px;
+  color: rgba(255, 255, 255, 0.55);
+  font: 400 14px/1.7 var(--font-montserrat), Montserrat, sans-serif;
+}
+
+.canal-sandbox-body {
+  max-width: 1180px;
+  margin: 0 auto;
+}
